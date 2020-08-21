@@ -1,3 +1,12 @@
+.carousel__container:hover .carousel-item {
+  opacity: 0.3;
+}
+
+.carousel__container:hover .carousel-item:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  opacity: 1;
+}
 .carousel-item {
     border-radius: 20px;
     overflow: hidden;

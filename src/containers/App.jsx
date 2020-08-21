@@ -4,6 +4,7 @@ import Search from '../componenets/Search';
 import Categories from '../componenets/Categories';
 import Carrusel from '../componenets/Carrusel';
 import CarruselItem from '../componenets/CarruselItem';
+import Footer from '../componenets/Footer';
 import '../assets/styles/App.scss';
 
 const App = () => (
@@ -18,6 +19,7 @@ const App = () => (
         <CarruselItem />
       </Carrusel>
     </Categories>
+    <Footer />
   </div>
 );
 
